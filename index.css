@@ -1,0 +1,120 @@
+/* Mobile first - tested with iPhone6 */
+
+body {
+  background-color: #96ded1;
+}
+
+#top p {
+  text-align: center;
+  font-family: twiggy;
+  font-size: 6.8rem;
+  color: #562f0e;
+  margin: 0px;
+}
+
+.row {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  position: relative;
+  padding-top: 10%;
+}
+
+.bird {
+  cursor: pointer;
+}
+
+.bird img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.tag, .tag2, .tag3 {
+  width: 45%;
+  padding: 1%;
+  float: left;
+}
+
+.tag p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  color: #424242;
+  margin-left: 43%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.tag2 p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  color: #424242;
+  margin-left: 40%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.tag3 p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  color: #424242;
+  margin-left: 49%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#bottom {
+  width: 100%;
+  text-align: center;
+}
+
+#bottom p {
+  display: inline-block;
+  font-family: twiggy;
+  font-size: 3rem;
+  color: #562f0e;
+  margin: 0px;
+  padding: 3%;
+}
+
+#stop {
+  cursor: pointer;
+}
+
+#random {
+  cursor: pointer;
+}
+
+
+/* for iPad */
+@media all and (max-width: 768px){
+
+  .row {
+    width: 100%;
+    height: 32vh;
+    padding-top: 5%;
+  }
+
+}
+
+
+/* for Desktop */
+
+@media all and (min-width: 992px){
+
+  .row {
+    width: 100%;
+    height: 25%;
+    padding-top: 5%;
+  }
+
+  .tag, .tag2, .tag3 {
+    width: 45%;
+    float: left;
+  }
+
+}
